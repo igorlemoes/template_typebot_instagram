@@ -154,6 +154,14 @@ function criarBarra(var_nome = 'Seu Nome', var_avatar = '', var_insta_nome = 'se
     font-weight: 400;
     letter-spacing: 0;
     }
+
+    .typebot-avatar-container  { margin-right: 15px !important; }
+    .typebot-avatar-container > div > figure {width: 40px !important; height: 40px !important; margin-top: 0px !important;}
+    
+    @media screen and (max-width: 1280px) {
+    .typebot-avatar-container {margin-right: 30px  !important; }
+    .typebot-avatar-container > div > figure {width: 40px !important; height: 40px !important; margin-top: -10px !important;}
+    .typebot-container { background-size: initial !important; background-repeat: repeat-x !important; height: 100dvh !important;}
     
   `;
   
@@ -289,4 +297,5 @@ function criarBarra(var_nome = 'Seu Nome', var_avatar = '', var_insta_nome = 'se
     }
   
   }, 100)
+  
 }
